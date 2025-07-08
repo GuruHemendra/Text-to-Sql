@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "gretel-synthetic-text-to-sql",
+  "dataset_size": 107513424,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/philschmid/gretel-synthetic-text-to-sql@502949af52d993029e2f265e6c567701ba93816f/synthetic_text_to_sql_train.snappy.parquet": {
+      "num_bytes": 32363736,
+      "checksum": null
+    },
+    "hf://datasets/philschmid/gretel-synthetic-text-to-sql@502949af52d993029e2f265e6c567701ba93816f/synthetic_text_to_sql_test.snappy.parquet": {
+      "num_bytes": 1901018,
+      "checksum": null
+    }
+  },
+  "download_size": 34264754,
+  "features": {
+    "message": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 141778178,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 101584529,
+      "num_examples": 100000,
+      "dataset_name": "gretel-synthetic-text-to-sql"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5928895,
+      "num_examples": 5851,
+      "dataset_name": "gretel-synthetic-text-to-sql"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
